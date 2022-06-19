@@ -1,0 +1,28 @@
+algoritmo "helloworld"
+  var n1 : real
+  var n2 : real
+  var media : real
+
+ inicio
+
+      escreval ("digite  a primeira nota ")
+         leia (n1)
+
+      escreval ("digite a segunda nota ")
+         leia (n2)
+
+      media <- (n1 + n2) / 2
+
+          se media >= 7 entao 
+               escreval ("aluno aprovado media  " , media )
+      
+  senao
+     
+      
+          se media <=6 entao
+                escreval ("aluno reprovado media " , media )
+          fimse
+     fimse
+
+ 
+  fimalgoritmo
